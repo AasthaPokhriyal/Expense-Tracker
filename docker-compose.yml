@@ -18,11 +18,11 @@ services:
     # restart: always
 
   app:
-    build: .
+    image: aasthapokhriyal/expense-tracker-app:latest
     container_name: expense_tracker_springboot_project
 
     ports:
-      - "8081:8080"
+      - "8080:8080"
     environment:
       MYSQL_HOST: mysql
       MYSQL_PORT: 3306
