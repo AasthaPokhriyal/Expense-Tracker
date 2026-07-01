@@ -64,3 +64,8 @@ http://localhost:8080/swagger-ui/index.html
 * Dashboard for monthly and annual reports
 * Swagger API Documentation
 * Dockerized Application
+
+## Deployment
+
+* Deployed on AWS EC2
+* Can be accessed using http://15.134.216.24:8080/swagger-ui/index.html
